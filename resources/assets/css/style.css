@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+* {
+    font-family: "Roboto" , "Open Sans", "Vedarna",sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    border:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: -ms-page;
+    font-size: 98%;
+}
+html, body {
+    height: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background:  #494949;
+}
+p {
+    color: #333333;
+    font-weight: bold;
+    font-size: 1rem;
+}
+legend strong{
+    font: 800 1em Roboto;
+    color:  #333444
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    -webkit-display: -webkit-box;
+    -webkit-display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: inherit;
+    z-index:0;
+    overflow-x: auto;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+header, footer {
+    display: flex;
+    width: 100%;
+    background: #3E72FC;
+}
+header{
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0 1em;
+    justify-content: space-between;
+}
+footer{
+    margin-top: auto;
+    height: auto;
+    justify-content: space-between
+}
+footer p {
+    margin: 0.3em 1em;
+    font: 500 0.8em Roboto;
+    color:  #E6ECE5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    flex: 1;
+    height: 100%;
+    z-index:0;
+    margin-top: auto;
+}
+.divpainel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 100%;
+    background: #f7f7f7;
+    align-items: center;
+    justify-content: CENTER;
+    border: 1px #f19f4d solid;
+}
+.divseparacaofix {
+    display: flex;
+    flex-flow: column;
+    flex:1;
+    flex-grow: 7;
+    height: 100%;
+    width: 50%;
+    margin: auto 0.1rem ;
+    background: #f5f8ff;
+    border: 1px solid rgba(77, 77, 77, 0.3);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.divseparacao{
+    display: flex;
+    flex-flow: column;
+    flex: 2;
+    flex-grow: 6;
+    height: 100%;
+    margin: auto 0.1rem ;
+    background: #f5f8ff;
+    border: 1px solid rgba(77, 77, 77, 0.3);
+    align-items: center;
+    justify-content: space-around;
+    font-size: 60% !important;
+}
+.divlogin {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    background: #312EBD;
+    border: 1px #f19f4d solid;
+    align-items: center;
+    justify-content: space-around;
+}
+.contentPainel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap ;
+    flex: 1;
+    height: 95%;
+    margin-top: auto
+}
+.div_d {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+.div_dR {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    justify-content: center;
+    background: #f5f8ff;
+    border: 1px solid rgba(77, 77, 77, 0.3);
+    align-items: center;
+    justify-content: space-around;
+}
+.painelDash  {
+    width: 250px !important;
+    height: 130px;
+    padding: 10px 5px;
+    margin: 9px 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.contentGrafico {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.graficos {
+    flex: 70%;
+    text-align: center;
+    align-self: center;
+    position: initial;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+.contentRela {
+    flex: 98%;
+    text-align: center;
+    align-self: center;
+    position: initial;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: aliceblue
+}
+.pagination {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.pagination a {
+    color: #000;
+    padding: 0.2em 0.6em 0.2em;
+    margin: 0.2em 0.1em 0.2em;
+    text-decoration: none;
+    text-align: center;
+    background-color: green;
+    font: 800 1rem Roboto;
+    border-radius: 5px;
+}
+.pagination a:hover {
+    color: #DBEBFA;
+}
+.painelhome{
+    width: 600px;
+    height: 30px;
+    background: #3E89FC;
+}
+.painelhome span{
+    font: 600 1.5em Archivo;
+    color:  #000000;
+    letter-spacing: 0.2em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logotheme{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+    height: auto
+}
+.logotheme img {
+    width: 85px;
+    height: 30px;
+    flex-direction: column
+}
+.logotheme span {
+    font: 500 1em Roboto;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.datahome{
+    width: 250px;
+    height: 22px;
+    font: 500 0.9em Roboto;
+    line-height: 15px;
+    color: #000000;
+}
+.painelcontrol{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    background: #3E89FC;
+    align-items: center;
+    justify-content:  space-around
+}
+.painelcontrol img{
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+.painelcontrol img:hover{
+    background-color: #cad1c3;
+    border-radius: 50%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.painelcontrolform{
+    display: flex;
+    width: 100%;
+    height: content-box;
+    background: #ddd;
+    align-items: center !important ;
+    justify-content:  space-around
+}
+.painelcontrolform img {
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    *{
+        font-size: 90%
+    }
+    main {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+/*  ESTILO DAS MODAL DASHBOARD */
+.modal_conteiner {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center
+}
+.modal_conteiner.mostrar{
+    display: flex
+}
+.modal {
+    background-color: #d9d9d9;
+    width: 90%;
+    min-width: 1100px;
+    padding: 10px;
+    border: 1px solid #DBEBFA;
+    border-radius: 10px;
+    transition: all .3s;
+    display: flex;
+    flex-flow: column wrap ;
+    justify-content: space-evenly ;
+    align-items: center
+}
+.modal h1{
+    font: 500 small-caps 1.5em Roboto;
+    color: #312EBD;
+}
+.modal div{
+    background: #f5f8ff;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around ;
+    align-items: center
+}
+.fechar{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background: #494949;
+    color: white;
+    cursor: pointer
+}

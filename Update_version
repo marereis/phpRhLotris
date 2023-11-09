@@ -1,0 +1,10 @@
+*** Atualização *** 
+
+* Envio de e-mail  da carta de encaminhamento de candidatos
+-criação de formulario de envio
+-altualização do tipo de encaminhamento(email ou carta) por default=>carta
+Obs.:
+
+#fazer alteração na tabela encaminhamento adcionando os campos
+- TIPO_ENCAMI
+- EMAIL_ENCAM_EMPRE

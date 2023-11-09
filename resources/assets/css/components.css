@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* COMPONENTES */
+
+.full { width: 100% !important;}
+.full-98{ width: 98%; height: auto;}
+.img-large{ width: 500px;}
+.img-mediun{ width: 350px;}
+.img-small{ width: 200px;}
+.img-tinyy{ width: 100px;}
+.img-tiny{width: 40px;height: 40px; background: green;}
+
+.txt-large{ font: 400 3.5rem Roboto !important;}
+.txt-mediun-1{ font: 500 3rem Roboto !important;}
+.txt-mediun{ font: 550 2.5rem Roboto !important; }
+.txt-small{ font: 300 1.8rem Roboto !important;}
+.txt-small-1{ font: 700 small-caps 0.9rem Roboto !important;}
+.txt-small-2{ font: 500 1.3rem Roboto !important;}
+.txt-small-3{ font: 300 small-caps 2rem Roboto !important;}
+.txt-small-4{ font: 300 small-caps 1.7rem Roboto !important;}
+.txt-form{ font: 600 small-caps 1.1rem Verdana; height: 31px !important;}
+.txt-form1{ font: 700 small-caps 1.8rem Verdana; height: 35px !important;}
+
+.cor-bk-br{ background: #ffffff !important;}
+.cor-bk-lt{ background: #f9cf00 !important;}
+.cor-bk-cz{ background: #d9d9d9 !important;}
+.cor-bk-cz-l{ background: #d3d3d3 !important;}
+.cor-bk-az-cl{ background:#4484ce !important;}
+.cor-bk-az-es{ background: #312EBD !important;}
+
+.tm-p-90{width: 90px !important;}
+.tm-p-110{width: 110px !important;}
+.tm-p-130{width: 130px !important;}
+.tm-p-150{width: 150px !important;}
+.tm-p-160{width: 160px !important;}
+.tm-m-180{width: 180px !important;}
+.tm-m-210{width: 210px !important;}
+.tm-m-260{width: 260px !important;}
+.tm-m-280{width: 280px !important;}
+.tm-m-310{width: 310px !important;}
+.tm-m-350{width: 350px !important;}
+.tm-g-400{width: 400px !important;}
+.tm-g-450{width: 450px !important;}
+.tm-g-500{width: 500px !important;}
+.tm-g-550{width: 550px !important;}
+.tm-g-589{width: 589px !important;}
+.tm-g-620{width: 620px !important;}
+
+.cor-br{ color: #ffffff;}
+.cor-am-cl{ color:#f19f4d;}
+.cor-az-cl{ color:#4484ce;}
+.cor-az-es{ color: #312EBD;}
+.cor-az-fc{ color:#191970;}
+.cor-cz{ color: rgba(77, 77, 77, 0.3);}
+.cor-cz-cl{ color: #d9d9d9;}
+.cor-cz-md{color: rgba(36, 31, 31, 0.886);}
+
+.direito{text-align: left !important;}
+.esquedo{text-align: right !important;}
+.centro{text-align: center !important;}
+.mg-add-1{margin-bottom: 1rem !important;}
+.mg-add-2{margin-bottom: 2rem !important;}
+
+.border-cl{ 
+    border: #ffffff 1px solid;
+}
+.img-salva-btn{
+    background-image:url(../../../resources/assets/img/painel/salvar.svg)!important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    
+}
+.img-alterar-btn{
+    background-image:url(../../../resources/assets/img/painel/alterar.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+   
+}
+.img-procurar-btn{
+    background-image:url(../../../resources/assets/img/painel/procurar.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    
+}
+.img-deletar-btn{
+    background-image:url(../../../resources/assets/img/painel/deletar.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    
+}
+.img-sair-btn{
+    background-image:url(../../../resources/assets/img/painel/sair_registro.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+   
+}
+.img-pdf-btn{
+    background-image:url(../../../resources/assets/img/painel/pdf.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+}
+.img-Backup-btn{
+    background-image:url(../../../resources/assets/img/painel/backupBt.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+}
+
+.img-dash_cand-btn{
+    background-image:url(../../../resources/assets/img/painel/candidato.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    background-size: 70px
+}
+.img-dash_genero-btn{
+    background-image:url(../../../resources/assets/img/painel/generos.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    background-size: 50px
+}
+.img-dash_contrato-btn{
+    background-image:url(../../../resources/assets/img/painel/contrato.svg) !important;
+    background-repeat:no-repeat !important;
+    background-position:left center !important;
+    background-size: 70px
+        
+}
+
+

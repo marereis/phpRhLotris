@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* 
+    Created on : 06/01/2021, 11:03:52
+    Author     : Mare
+*/
+label {
+    width: 100%;
+    justify-content: start;
+    text-align: start;
+    font: 500 small-caps 0.9rem Roboto;
+    padding:0.1rem 1rem;
+    margin: 0.1rem 0 auto;
+}
+input[type="text"], input[type="tel"], input[type="number"],input[type="password"],
+input[type="email"],input[type="date"], textarea, select, input[type="datetime-local"]{
+    color: #000000;
+    border: 1px solid rgb(230, 228, 228);
+    border-bottom: 3px solid rgba(8, 13, 88, 0.459);
+    border-left-width: 9px;
+    background: rgba(241, 236, 236, 0.438);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    outline: none;
+    padding:0.1rem 0.2rem;
+    margin: 0.1rem 0.5rem;
+    text-align: justify-all;
+    font: 600 small-caps 1rem Verdana;
+    height: 27px;
+}
+input[type="submit"], [type="button"] {
+    border-radius: 5px;
+    background:#0300c2;
+    color: #ffffff;
+    outline: none;
+    padding:0.2rem 0.8rem;
+    margin: 1rem 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[type="submit"]:hover, [type="button"]:hover, button:hover {
+    background-color:#00c2d8;
+    color: #000000;
+}
+input:focus{
+    border-top: 1px solid rgba(3, 38, 102, 0.514);
+}
+textarea {
+    line-height: 1.5;
+    width: 43em;
+    height: 6.5em;
+    justify-content: start
+
+}
+select:focus{
+    border-top: 1px solid rgba(3, 38, 102, 0.514);
+}
+/* ESTILO TABELAS*/
+table{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 98%;
+    margin: 0.7rem 1rem;
+    padding: 0.2rem;
+    font: 500 0.9rem Verdana;
+    text-decoration: none;
+}
+thead, th{
+    font: 400 small-caps 1.1rem Roboto;
+    background: #d5d5d5 ;
+    color: darkslategray;
+    padding: 0.2rem;
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    padding: 0.1rem auto;
+    margin: 0.2rem 0.1rem;
+    text-decoration: none;
+}
+td a{
+    display: block;
+}
+tr:nth-child(2n+1){
+    background: #eeeeee;
+}
+tr:hover{
+    background-color: rgb(176,224,230);
+    color:  #000;
+    cursor: pointer;
+}
+tr{
+    text-decoration: none;
+}
+.grupo {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+}
+.form-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.campo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0.1rem 0.1rem;
+}
+@media screen and (max-width: 700px) {
+    * {
+        font-size: 95%;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
+.button{
+    background-color:  #525651;
+    width:150px;
+    height: 32px;
+    text-align: right;
+    align-self: center;
+    color: #ffffff;
+    font: 500 1.2rem Roboto !important;
+}
+button:hover {
+    background-color:#145ffb !important;
+    color: #ff9933 !important;
+}
+button{
+    outline: none;
+    padding:0.1rem 0.4rem;
+    margin: 0.2rem 0.1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnLogin:hover{
+    background-color:#145ffb !important;
+    color: #ff9933 !important;
+}
+
+/* ESTILO ABAS-FORM */
+.items section {
+    display: none
+}
+.items section:target {
+    display: block;
+    margin: 0.5rem auto;
+}
+.items section:not(:target) {
+    display: none
+}
+.items section:target {
+    display: block;
+    margin: 0.5rem auto;
+}
+.aba a {
+    margin: 0.1rem 0.1rem;
+    padding: 0.5rem 0.5em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: #333333;
+    height: 80px;
+    font: 600 0.6rem verdana ;
+    color: #ffffff
+}
+
+
+/*paleta de cores
+.color1 { #e7eed0 };
+.color2 { #cad1c3 };
+.color3 { #948e99 };
+.color4 { #51425f };
+.color5 { #2e1437 };*/

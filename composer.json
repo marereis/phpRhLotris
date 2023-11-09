@@ -1,0 +1,29 @@
+{
+    "name": "lotris/recursoshumanos",
+    "description": "Descrição do projeto Recursos humanos",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mare",
+            "email": "marereis@gmail.com",
+            "role": "Developer",
+            "homepage": "http://lotris.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },        
+        "files": [
+            "bootstrap/Config.php",
+            "bootstrap/Helpers.php"
+        ]
+    },
+    "require": {
+        "ext-json": "*",
+        "dompdf/dompdf": "^1.0",
+        "davefx/phplot": "*",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

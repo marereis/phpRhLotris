@@ -1,0 +1,5 @@
+/vendor
+/bootstrap/config.php
+/.vscode
+/nbproject
+
