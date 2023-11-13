@@ -50,6 +50,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Marcos Andre 👋🏽 [Entre em contato!](www.linkedin.com/in/mare-marcos-andre/)
+Feito com ❤️ por Marcos Andre 👋🏽 [Entre em contato!](https://www.linkedin.com/in/mare-marcos-andre/)
 
 
