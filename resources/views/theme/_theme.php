@@ -16,13 +16,13 @@
             <div class="ajax_load_box">
                 <div class="ajax_load_box_circle"></div>
                 <div class="ajax_load_box_title">
-                    <img src="<?php echo asset('/img/lotris_transp_G.png'); ?>" style=" width: 90px; height: 38px; align-items: center" />
+                    <img src="<?php echo asset('/img/logotransG.png'); ?>" style=" width: 90px; height: 38px; align-items: center" />
                 </div>
             </div>
         </div>
         <header>
             <div class="logotheme">
-                <img src="<?php echo asset('/img/lotris_transp_G.png'); ?>" alt="alt" />
+                <img src="<?php echo asset('/img/logotransG.png'); ?>" alt="alt" />
                 <span>Gestão em RH</span>
             </div>
             <div class="painelhome">
