@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/login-rh-lotris.png" width="500px"/>
+    <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/login-rh-lotris.png" width="600px"/>
 </h1>
 <h4 align="center"> 
 # php-RH-lotris - Lotris - Gestao em RH
@@ -32,16 +32,16 @@ Projeto desenvolvido para ajudar na Gestão na empresas de Recursos Humanos.
 O layout da aplicação está disponível no Figma:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-   <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/dashboard-rh-lotris.png" width="400px">
+   <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/dashboard-rh-lotris.png" width="500px">
 
-  <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/cadastro-rh-lotris.png" width="400px">
+  <img alt="Lotris - Gestao de RH" title="Lotris - Gestao de RH" src="resources/assets/img/cadastro-rh-lotris.png" width="500px">
 </p>
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [PHP8][php8]
+- [PHP-8][php-8]
 - [Javascript][javascript]
 - [Css][css]
 - [Jquery][jquery]
