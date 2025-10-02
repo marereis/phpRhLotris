@@ -8,7 +8,7 @@ define("SITE", [
     "desc" => "Lotris RH -  Sorfware de Gestao Recursos Humanos",
     "domain" => "lotris",
     "locale" => "pt_BR",
-    "root" => "http://localhost:81/rhlotris/",
+    "root" => "https://phprhlotris-production.up.railway.app/",
     "root1" => "http://localhost:8080/rhlotris/",
     "root1" => "http://localhost:81/rhlotris/",
 ]);
@@ -18,11 +18,11 @@ define("SITE", [
  */
 define("DATA", [
     "driver" => "mysql",
-    "host" => "127.0.0.1",
-    "port" => "3306",
+    "host" => "nozomi.proxy.rlwy.net",
+    "port" => "42213",
     "dbname" => "bdrh",
     "username" => "root",
-     "passwd" => "mare127601@aA",
+     "passwd" => "BsXfUAMkHqCUvfSmTKPAfaOWwhBEVSbA",
    // "passwd" => "",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
