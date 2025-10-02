@@ -7,11 +7,12 @@ define("SITE", [
     "name" => "Lotris RH",
     "desc" => "Lotris RH -  Sorfware de Gestao Recursos Humanos",
     "domain" => "lotris",
-    "locale" => "pt_BR",
-    "root" => "https://phprhlotris-production.up.railway.app/",
+    "locale" => "pt_BRapp",
+    "root" => "https://phprhlotris.up.railway.app/",
     "root1" => "http://localhost:8080/rhlotris/",
     "root1" => "http://localhost:81/rhlotris/",
 ]);
+
 
 /**
  * DATABASE CONECT
